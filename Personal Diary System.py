@@ -17,3 +17,11 @@ while True:
         with open("personaldiary.txt","w") as f:
             f.write(message + "\n")
         print("Message written to diary.")
+    elif choice == "2":
+        message = input("Enter your message: ")
+        with open("personaldiary.txt","a") as f:
+            f.write(message + "\n")
+        print("Message added to diary.")
+    
+        
+        
