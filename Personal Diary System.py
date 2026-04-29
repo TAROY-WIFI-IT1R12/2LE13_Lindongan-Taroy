@@ -16,16 +16,11 @@ while True:
         message = input("Enter your message: ")
         with open("personaldiary.txt","w") as f:
             f.write(message + "\n")
-<<<<<<< HEAD
-        print("Message written to diary.")
-=======
-        print("Message written to diary.")
+            print("Message written to diary.")
     elif choice == "2":
         message = input("Enter your message: ")
         with open("personaldiary.txt","a") as f:
             f.write(message + "\n")
         print("Message added to diary.")
     
-        
-        
->>>>>>> 4df6f76ce0783eab426a9ea6cfdf5d412cd98acd
+    
